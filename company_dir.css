@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+    box-shadow:  0 0 10px rgba(0,0,0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+h1 , h2{
+    text-align: center;
+}
+
+
+.form-section{
+    background-color: #e9f5ff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #b3d9ff;
+}
+
+form{
+    display: block;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input , select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+.employee-list{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+#employeeOrderList{
+    margin-top: 10px;   
+}
+
+
+#employeeOrderList li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#employeeOrderList li{
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Employee-Table Section */
+
+.Employee-Table{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #007bff;
+    color: white;
+}
+td img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+/*Company-mapLocation  Section */
+
+.Company-mapLocation{
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
